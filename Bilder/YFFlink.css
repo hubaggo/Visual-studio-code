@@ -1,18 +1,18 @@
 .header {
-    background-color: #c52222;
+    background-color: #ffffff;
     text-align: center;
     padding: 20px;
 }
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #85c3ee;
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: #854343;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
