@@ -2,3 +2,18 @@ body {
     background-color: lightblue;
     /*dette gjør bakrunsfargen i index.html lyseblå*/
   }
+  a:link {
+    color:aqua
+  }
+
+  a:hover {
+    color:blueviolet
+  }
+
+  a:visited {
+    color:limegreen
+  }
+
+  a:active {
+    color:blue
+  }
