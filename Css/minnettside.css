@@ -1,0 +1,9 @@
+body {
+    background-color:aqua;
+}
+
+.header {
+    background-color:rgb(151, 235, 241);
+    text-align:center;
+    padding:10px;
+}

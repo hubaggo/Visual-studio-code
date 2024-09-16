@@ -3,18 +3,18 @@ body {
     /*dette gjør bakrunsfargen i index.html lyseblå*/
   }
   a:link {
-    color:aqua
+    color:aqua;
   }
 
   a:hover {
-    color:blueviolet
+    color:blueviolet;
   }
 
   a:visited {
-    color:limegreen
+    color:limegreen;
   }
 
   a:active {
-    color:blue
+    color:blue;
   }
   /*disse gjir linkene andre farger når de er inaktive, når noen holder musen over, når de har blit besøkt 
