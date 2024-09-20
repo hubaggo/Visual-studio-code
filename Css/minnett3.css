@@ -23,24 +23,23 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #b32323;
-    color: black;
+    background-color: #185cbb;
 }
 
-  .column {
-    float:left;
-    width: 100%;
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
   }
 
-  .row::after {
+.row::after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  @media screen and (max-width:600px) {
+@media screen and (max-width:600px) {
     .column, .topnav a, .header {
       width: 100%;
     }
   }
-
