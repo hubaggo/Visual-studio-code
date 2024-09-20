@@ -1,12 +1,13 @@
 .header {
     background-color: #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 23px 20px;
 }
 
 .topnav {
     overflow: hidden;
     background-color: #85c3ee;
+    padding: 15px 2px;
 }
 
 .topnav a {
