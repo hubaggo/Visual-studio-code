@@ -23,8 +23,7 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #b32323;
-    color: black;
+    background-color: #185cbb;
 }
 
   .column {
@@ -43,4 +42,3 @@ body {
       width: 100%;
     }
   }
-
