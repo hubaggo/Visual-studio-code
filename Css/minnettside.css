@@ -22,7 +22,7 @@ body {
     text-decoration: none;
 }
 
-.topnav a:hover {
+a:hover {
     background-color: #185cbb;
 }
 
