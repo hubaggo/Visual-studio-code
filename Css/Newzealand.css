@@ -41,7 +41,7 @@ body {
 }
 /* "forsteKolonne" er et unikt element fra en av kolonene i newzealandmain, og her kan jeg endre på bakrundsbildet i bare den dellen av nettsiden */
 #forsteKolonne {
-    background-image: url(../Bilder/Amalie_Skram_videregående_skole.jpg);
+    background-image: url(../Bilder/the\ mãori.jpg);
 }
 
 @media screen and (max-width:600px) {
