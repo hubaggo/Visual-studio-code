@@ -40,7 +40,7 @@ body {
     clear: both;
 }
 /* "forsteKolonne" er et unikt element fra en av kolonene i newzealandmain, og her kan jeg endre på bakrundsbildet i bare den dellen av nettsiden */
-#forsteKolonne {
+#andreKolonne {
     background-image: url(../Bilder/the\ mãori.jpg);
     background-repeat: no-repeat;
     float: center;
