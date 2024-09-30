@@ -46,7 +46,7 @@ body {
     background-repeat: no-repeat;
 }
 
-/* "forsteKolonne" er et unikt element fra en av kolonene i newzealandmain, og her kan jeg endre på bakrundsbildet i bare den dellen av nettsiden */
+/* "andreKolonne" er et unikt element fra en av kolonene i newzealandmain, og her kan jeg endre på bakgrundsb33ildet i bare den dellen av nettsiden */
 #andreKolonne {
     background-image: url(../Bilder/the\ mãori.jpg);
     background-repeat: no-repeat;
