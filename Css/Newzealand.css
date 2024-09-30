@@ -1,5 +1,6 @@
 body {
     background-color:rgb(0, 0, 0);
+    font-family: "quicksand", sans-serif;
 }
 
 .header {
@@ -39,14 +40,22 @@ body {
     display: table;
     clear: both;
 }
+
+#hobbiton {
+    background-image: url(../Bilder/hobbiton.jpg);
+    background-repeat: no-repeat;
+}
+
 /* "forsteKolonne" er et unikt element fra en av kolonene i newzealandmain, og her kan jeg endre på bakrundsbildet i bare den dellen av nettsiden */
 #andreKolonne {
     background-image: url(../Bilder/the\ mãori.jpg);
     background-repeat: no-repeat;
     float: center;
     width: 1200px;
+    height: 500px;
     padding: 15px;
-    color:#ffffff
+    color:#ffffff;
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 @media screen and (max-width:600px) {
@@ -54,3 +63,4 @@ body {
       width: 100%;
     }
   }
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
