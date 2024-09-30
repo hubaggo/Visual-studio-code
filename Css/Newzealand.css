@@ -28,8 +28,8 @@ body {
 }
 
 .column {
-    float: center;
-    width: 33%;
+    float: left;
+    width: 30%;
     padding: 15px;
     color: #ffffff;
   }
