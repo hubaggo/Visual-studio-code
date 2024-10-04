@@ -1,11 +1,11 @@
 body {
-    background-color:rgb(0, 0, 0);
-    font-family: "quicksand", sans-serif;
-    font-size:medium;
+    background-color:rgb(0, 0, 0);/*Changes background color to black*/
+    font-family: "quicksand", sans-serif;/*Enables a new font in all connected html sites*/
+    font-size:medium;/*Determines the size of the text*/
 }
 
 .header {
-    background-color:#3a3d40;
+    background-color:#3a3d40;/*Sets the background color of the header to gray*/
     text-align:center;
     padding:10px;
     color: #ffffff;
