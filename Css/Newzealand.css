@@ -11,6 +11,10 @@ body {
     color: #ffffff;
 }
 
+a:link {
+    color:darkcyan;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #3a3d40;
