@@ -15,6 +15,10 @@ a:link {
     color:rgb(82, 218, 218); /*Sets a specified color to links*/
 }
 
+a:any-link {
+    color: rgb(82, 218, 218); /*Sets a specified color to ALL links*/
+}
+
 .topnav {
     overflow: hidden; 
     background-color: #3a3d40; /*Sets the background color of the navigation bar*/
