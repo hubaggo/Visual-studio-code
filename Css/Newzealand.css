@@ -56,7 +56,7 @@ a:any-link {
 }
 
 /* "andreKolonne" er et unikt element fra en av kolonene i newzealandmain, og her kan jeg endre på bakgrundsb33ildet i bare den dellen av nettsiden */
-#andreKolonne {
+#bilde {
     background-image: url(../Bilder/the\ mãori.jpg);
     background-repeat: no-repeat;
     float: center;
@@ -73,12 +73,12 @@ a:any-link {
     padding: 10px;
     color: #ffffff;
     position:absolute;
-    margin-top: 60%;
+    margin-top: 65%;
     width: 100%;
   }
 
 @media screen and (max-width:600px) {
-    .column, .topnav a, .header {
+    .column, .topnav a, .header, .footer {
       width: 100%;
     }
   }
