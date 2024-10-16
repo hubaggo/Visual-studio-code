@@ -6,18 +6,18 @@ body {
 
 .header {
     background-color:#3a3d40;/*Sets the background color of the header to gray*/
-    text-align:center;
-    padding:10px;
-    color: #ffffff;
+    text-align:center; /*Aligns the tex in the header to be in the middle*/
+    padding:10px; /*Sets the distance betwen text in the header*/
+    color: #ffffff; /*The color of text in the header*/
 }
 
 a:link {
-    color:darkcyan;
+    color:darkcyan; /*Sets a specified color to links*/
 }
 
 .topnav {
-    overflow: hidden;
-    background-color: #3a3d40;
+    overflow: hidden; 
+    background-color: #3a3d40; /*Sets the background color of the navigation bar*/
 }
 
 .topnav a {
