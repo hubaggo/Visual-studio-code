@@ -38,7 +38,7 @@ a:any-link {
 }
 
 .column {
-    float: left;
+    /*float: left;*/
     width: 30%;
     padding: 15px;
     color: #ffffff;
@@ -72,8 +72,8 @@ a:any-link {
     text-align: center;
     padding: 10px;
     color: #ffffff;
-    position:absolute;
-    margin-top: 65%;
+    /*position:absolute;
+    margin-top: 65%;*/
     width: 100%;
   }
 
