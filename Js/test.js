@@ -1,6 +1,8 @@
-let a = 0
+function seimidten(tall1, tall2, tall3) {
 
-for(let i = 0; i< 6; i++) {
-    a++
-    console.log("test " +a)
+    if (tall1 > Math.min(tall2, tall3) && tall1 < Math.max(tall2, tall3)) {
+        return true
+    } else {
+        return false
+    }
 }
