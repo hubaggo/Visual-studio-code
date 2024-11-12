@@ -5,5 +5,5 @@ function finnAlder() {
     let navn = prompt("Hva er navnet ditt?", "");
     let alder = (tall1 + tall2);
 
-    document.getElementById("finnAlder").innerHTML = navn + ", du er " + alder + "år gammel!";
+    document.getElementById("finnAlder").innerHTML = navn + ", du er " + alder + " år gammel!";
 }
