@@ -22,37 +22,25 @@ body {
     text-decoration: none;
 }
 
-a:hover {
-    background-color: #57d5ff;
+.topnav a:hover {
+    background-color: #185cbb;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto;
-  background-color: #2167F4;
-  padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2167F4;
+    padding: 10px;
 }
-
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
-  .column {
-    float:left;
-    width: 100%;
-  }
-
-  .row::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  @media screen and (max-width:600px) {
+@media screen and (max-width:600px) {
     .column, .topnav a, .header {
       width: 100%;
     }
