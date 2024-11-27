@@ -35,6 +35,6 @@ function play() {
         document.getElementById("result").innerText="Jeg vant! :)"
         computerScore++
     }
-    document.getElementById("humanScore").innerText="Player score: " + humanScore
-    document.getElementById("computerScore").innerText="Robot score: " + computerScore
+    document.getElementById("humanScore").innerText="Spiller poeng: " + humanScore
+    document.getElementById("computerScore").innerText="Robot poeng: " + computerScore
 }
