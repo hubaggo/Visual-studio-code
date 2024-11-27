@@ -40,11 +40,13 @@ a:hover {
   #choice {
     background-color: #52b4cc;
     color: #ffffff;
+    border: #000000;
   }
 
   #play {
     background-color: #52b4cc;
     color: #ffffff;
+    border: #000000;
   }
 
   @media screen and (max-width:600px) {
