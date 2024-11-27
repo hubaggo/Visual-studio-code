@@ -38,7 +38,7 @@ a:hover {
   }
 
   @media screen and (max-width:600px) {
-    .column, .topnav a, .header {
+    body, .column, .topnav a, .header {
       width: 100%;
     }
   }
