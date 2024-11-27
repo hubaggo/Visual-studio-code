@@ -11,28 +11,28 @@ function play() {
         console.log("Not valid choice")
     }
     if (value === robot) {
-        console.log("Tie")
-        document.getElementById("result").innerText="Tie"
+        console.log("Uavgjort")
+        document.getElementById("result").innerText="Uavgjort! Vi valgte samme ting. -_-"
     }
     else if (value === "stein" & robot === "saks") {
-        console.log("Player won")
-        document.getElementById("result").innerText="Player won"
+        console.log("Spiller vant")
+        document.getElementById("result").innerText="Du vant! :("
         humanScore++
         
     }
     else if (value === "papir" & robot === "stein") {
-        console.log("Player won")
-        document.getElementById("result").innerText="Player won"
+        console.log("Spiller vant")
+        document.getElementById("result").innerText="Du vant! :("
         humanScore++
     }
     else if (value === "saks" & robot === "papir") {
-        console.log("Player won")
-        document.getElementById("result").innerText="Player won"
+        console.log("Spiller vant")
+        document.getElementById("result").innerText="Du vant! :("
         humanScore++
     }
     else {
-        console.log("Robot won")
-        document.getElementById("result").innerText="Robot won"
+        console.log("Robot vant")
+        document.getElementById("result").innerText="Jeg vant! :)"
         computerScore++
     }
     document.getElementById("humanScore").innerText="Player score: " + humanScore
