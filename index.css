@@ -64,7 +64,7 @@ a:hover {
   }
 
 @media screen and (max-width:600px) {
-    body, .column, .topnav a, .header {
+    .grid-container {
       grid-template-columns: 1fr;
     }
   }
