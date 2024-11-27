@@ -26,24 +26,24 @@ a:hover {
     background-color: #185cbb;
 }
 
-  .column {
-    float:left;
-    width: 100%;
+.column {
+  float:left;
+  width: 100%;
   }
 
-  .row::after {
+.row::after {
     content: "";
     display: table;
     clear: both;
   }
 
-  .grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #2167F4;
     padding: 10px;
 }
-  .grid-item {
+.grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
@@ -51,19 +51,19 @@ a:hover {
     text-align: center;
   }
 
-  #choice {
+#choice {
     background-color: #52b4cc;
     color: #ffffff;
     border: #000000;
   }
 
-  #play {
+ #play {
     background-color: #52b4cc;
     color: #ffffff;
     border: #000000;
   }
 
-  @media screen and (max-width:600px) {
+@media screen and (max-width:600px) {
     body, .column, .topnav a, .header {
       width: 100%;
     }
