@@ -1,0 +1,37 @@
+body {
+    background-color:aqua;
+  }
+  
+  .header {
+    background-color:rgb(151, 235, 241);
+    text-align:center;
+    padding:10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #85c3ee;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2167F4;
+    padding: 10px;
+    border: 1px solid black
+}
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px 20px;
+    font-size: 30px;
+    text-align: center;
+  }
