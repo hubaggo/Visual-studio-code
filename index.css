@@ -52,7 +52,7 @@ a:hover {
     border: #000000;
   }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .grid-container {
       grid-template-columns: 1fr;
     }
