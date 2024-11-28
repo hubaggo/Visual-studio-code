@@ -53,7 +53,7 @@ body {
   }
 
 @media screen and (max-width:600px) {
-    .column, .topnav a, .header {
-      width: 100%;
+    .grid-container {
+        grid-template-columns: 1fr;
     }
   }
