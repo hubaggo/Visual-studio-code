@@ -26,6 +26,10 @@ body {
     background-color: #185cbb;
 }
 
+a {
+    color: aqua;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
