@@ -32,7 +32,7 @@ a:hover {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     background-color: #2167F4;
     padding: 10px;
 }
