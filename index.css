@@ -1,19 +1,23 @@
 body {
+  /*endrer fargen på bakgrunden av nettsiden til en turkis-type farge*/
   background-color:aqua;
 }
 
 .header {
+  /*Setter bakgrundsfarge på headeren, i tilleg til å passe på at teksten er i midten av headeren*/
   background-color:rgb(151, 235, 241);
   text-align:center;
   padding:10px;
 }
 
 .topnav {
+  /*Setter bakgrundsfargen på topnav baren*/
   overflow: hidden;
   background-color: #85c3ee;
 }
 
 .topnav a {
+  /*Her endrer man linkene i navigsjon baren. Man kan, for eksempel, endre på fargen teksten har*/
   float: left;
   display: block;
   color: #ffffff;
