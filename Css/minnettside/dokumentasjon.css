@@ -40,6 +40,14 @@ body {
     text-align: center;
   }
 
+  a{
+    color: aqua;
+  }
+
+  a:hover {
+    background-color:#185cbb;
+  }
+
 #dato, #før, #etter, #hjelp {
   font-size: large;
   font-weight: 1000;
