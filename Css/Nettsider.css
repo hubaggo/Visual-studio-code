@@ -22,8 +22,12 @@ body {
     text-decoration: none;
 }
 
+a{
+  color:aqua;
+}
+
 a:hover {
-    background-color: #57d5ff;
+    background-color: #185cbb;
 }
 
 .grid-container {
