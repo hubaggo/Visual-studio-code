@@ -26,18 +26,6 @@ body {
     background-color: #185cbb;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-  }
-
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
