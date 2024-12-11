@@ -13,6 +13,7 @@ function play() {
     //Denne if-løken har ansvar om å returnere et error om noe går galt i koden
     if (!choices.includes(value)) {
         console.log("Not valid choice");
+        return;
     }
     //I denne if-løken regnes det ut hvem som vant, roboten eller spilleren. Den første skjekker om "value" er det samme som "robot". Om det er det, betyr det at det er uavgjort//
     if (value === robot) {
