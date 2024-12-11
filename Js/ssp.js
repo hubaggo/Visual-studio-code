@@ -21,18 +21,18 @@ function play() {
         document.getElementById("result").innerText="Uavgjort! Vi valgte samme ting. -_-"
     }
     //I else-if delene blir det skjeket om spilleren vant, og om man har det settes "result" til en melding om at man vant, og "humanScore" variabelen økes med 1//
-    else if (value === "stein" & robot === "saks") {
+    else if (value === "stein" && robot === "saks") {
         console.log("Spiller vant");
         document.getElementById("result").innerText="Du vant! :("
         humanScore++
         
     }
-    else if (value === "papir" & robot === "stein") {
+    else if (value === "papir" && robot === "stein") {
         console.log("Spiller vant");
         document.getElementById("result").innerText="Du vant! :("
         humanScore++
     }
-    else if (value === "saks" & robot === "papir") {
+    else if (value === "saks" && robot === "papir") {
         console.log("Spiller vant");
         document.getElementById("result").innerText="Du vant! :("
         humanScore++
