@@ -1,5 +1,5 @@
 function klokke() {
-    let d = new Date();
+    let date = new Date();
     let t = date.getHours();
     let m = date.getMinutes();
 
