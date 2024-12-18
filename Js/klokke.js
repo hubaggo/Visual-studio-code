@@ -3,7 +3,7 @@ function klokke() {
     let t = date.getHours();
     let m = date.getMinutes();
 
-    let tid = "Klokken er " + t + ":" + m;
+    let tid = "Klokken var " + t + ":" + m + " da du åpnet denne nettsiden";
 
     console.log(tid)
 
