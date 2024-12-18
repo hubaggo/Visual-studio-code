@@ -1,5 +1,5 @@
 document.getElementById("play").addEventListener("click", play)
-//Erklærer to variabler med verdien 0//
+//Poeng//
 let humanScore = 0;
 let computerScore = 0;
  
@@ -37,7 +37,7 @@ function play() {
         console.log("Spiller vant");
         document.getElementById("result").innerText="Du vant! :("
         humanScore++
-    }
+    }   
     //Siden alle andre alternativer enn at roboten vant har blitt skjeket, kan jeg bare bruke else for å skjeke dette. Her settes "result" til en melding om at roboten vant, og "robotScore" økes med 1
     else {
         console.log("Robot vant");
