@@ -68,3 +68,14 @@ a:hover {
       grid-template-columns: 1fr;
     }
   }
+
+  #bilder{
+    position: relative;
+    margin-top: 50px;
+    width: 300px;
+  }
+
+  .hangman .hangmanbilde {
+    position: absolute;
+    width: 100%;
+  }
