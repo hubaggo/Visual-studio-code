@@ -2,6 +2,7 @@ let feil = 0;
 let riktig = "";
 let lengde = 0;
 let posisjon = [];
+let feilliste = [];
 const ord = ["tilfeldig", "neshorn", "regnbyger", "tåkedotter", "ørnerede", "dagligvarer", "skogbruk", "skolegang"];
 
 function gjett() {
@@ -12,7 +13,8 @@ function gjett() {
             posisjon.push(i);
         }
         else {
-            feil++
+            feil++;
+            feilliste.push(bokstav);
         }
     }
     
@@ -20,7 +22,6 @@ function gjett() {
 
 function HM() {
     document.getElementById("gjettKnapp").addEventListener("click",gjett);
-    let bokstav = document.getElementById("gjettInput").value.trim
     riktig = ord[Math.floor(Math.random() * 8)];
     lengde = riktig.length;
     posisjon =[];
