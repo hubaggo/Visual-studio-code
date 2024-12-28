@@ -6,12 +6,17 @@ let feilliste = [];
 const ord = ["tilfeldig", "neshorn", "regnbyger", "tåkedotter", "ørnerede", "dagligvarer", "skogbruk", "skolegang"];
 
 function gjett() {
+    let vant = true;
     let funnet = false;
     let bokstav = document.getElementById("gjettInput").value.trim();
-    for (let i = 0; i > lengde; i++) {
-    /*Bruk av "indexOf" er lurt her, se w3schools og Knut for mer hjelp*/
+    document.getElementById("gjettInput").value="";
+    if (bokstav === "" || feilliste.includes(bokstav)) {
+        console.log("Skriv inn en bokstav")
+        return;
+    }
+    for (let i = 0; i < lengde; i++) {
         if (bokstav === riktig.charAt(i)) {
-            posisjon.push(i);
+            posisjon.push(i)
             funnet = true;
         }
     }
@@ -19,10 +24,32 @@ function gjett() {
         feil++;
         feilliste.push(bokstav);
     }
+
     for (i = 1; i <= feil; i++) {
         let lagindex = i + 1;
         document.getElementById("lag" + lagindex).style.display="block";
     }
+    let gjetteplass = "";
+    for (let i = 0; i < lengde; i++) {
+        if (posisjon.includes(i)) {
+            gjetteplass += riktig.charAt(i) + " ";
+        }
+        else {
+            gjetteplass += "_ ";
+            vant = false;
+        } 
+    }
+    let feilbokstaver = "Feil: "
+    for (let i = 0; i < feilliste.length; i++) {
+        feilbokstaver += feilliste[i] + " ";
+    }
+    if (vant === true) {
+        document.getElementById("ferdigknap").style.display="inline"
+    }
+    //Noe som fikser den "Du vant/tapte" ti ngen jeg snakket om i html dellen//
+    //No som gjør at man kan tape f.eks feil blir større en et førbestemt tall//
+    document.getElementById("feilplass").innerText=feilbokstaver;
+    document.getElementById("gjetteplass").innerText=gjetteplass;
 }
 
 function HM() {
@@ -31,8 +58,9 @@ function HM() {
     riktig = ord[Math.floor(Math.random() * 8)];
     lengde = riktig.length;
     posisjon =[];
-    if (bokstav === "") {
-        console.log("Skriv inn en bokstav")
-        return;
+    let gjetteplass = "";
+    for (let i = 0; i < lengde; i++) {
+        gjetteplass += "_ ";
     }
+    document.getElementById("gjetteplass").innerText=gjetteplass;
 }

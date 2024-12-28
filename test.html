@@ -6,12 +6,17 @@
         <meta charset="utf-8">
         <script src="Js/HangMan.js"></script>
     </head>
+    <!--Gjør dette litt finere, og hook det opp til resten av nettsidene-->
     <body onload="HM()">
         <div class="hangman">
             <div id="ord">
-                <input type="text" id="gjettInput">
-                <button id="gjettKnapp">Gjett en bokstav!</button></p>
-            </div>    
+                <input type="text" id="gjettInput" maxlength="1">
+                <button id="gjettKnapp">Gjett en bokstav!</button>
+                <button id="ferdigknap" onclick="location.reload()">Trykk for å starte på nytt</button>
+                <!--En liten tekst der det står"Du vant!", eller "Du tapte:(" eller noe sånt-->
+            </div>
+            <div id="gjetteplass"></div>
+            <div id="feilplass"></div>
             <div id="bilder">
                 <img class="hangmanbilde" src="Bilder/Lag 1.png" alt="lag1" id="lag1">
                 <img class="hangmanbilde" src="Bilder/Lag 2.png" alt="lag2" id="lag2">
@@ -21,6 +26,5 @@
                 <img class="hangmanbilde" src="Bilder/Lag 6.png" alt="lag6" id="lag6">
                 <img class="hangmanbilde" src="Bilder/Lag 7.png" alt="lag7" id="lag7">
             </div>
-
         </div>
     </body>
