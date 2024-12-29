@@ -51,6 +51,7 @@ function gjett() {
     else if (feil === 6) {
         document.getElementById("ferdigknap").style.display="inline";
         document.getElementById("resultat").innerText="Å nei! Du tapte! :(";
+        document.getElementById("gjettKnapp").style.display="none"
     }
     //Noe som fikser den "Du vant/tapte" tingen jeg snakket om i html dellen//
     //No som gjør at man kan tape f.eks feil blir større en et førbestemt tall//
