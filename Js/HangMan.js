@@ -8,7 +8,7 @@ const ord = ["tilfeldig", "neshorn", "regnbyger", "tåkedotter", "ørnerede", "d
 function gjett() {
     let vant = true;
     let funnet = false;
-    let bokstav = document.getElementById("gjettInput").value.trim();
+    let bokstav = document.getElementById("gjettInput").value.trim().toLowerCase();
     document.getElementById("gjettInput").value="";
     if (bokstav === "" || feilliste.includes(bokstav)) {
         console.log("Skriv inn en bokstav")
