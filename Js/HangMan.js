@@ -46,6 +46,7 @@ function gjett() {
     if (vant === true) {
         document.getElementById("ferdigknap").style.display="inline";
         document.getElementById("resultat").innerText="Gratulerer, du vant! :)";
+        document.getElementById("gjettKnapp").style.display="none"
     }
     else if (feil === 6) {
         document.getElementById("ferdigknap").style.display="inline";
