@@ -44,9 +44,15 @@ body {
     background-color:#185cbb;
   }
 
-#dato, #før, #etter, #hjelp, #skisse1, #skisse2, #egen{
+#dato, #før, #etter, #hjelp, #skisse1, #skisse2{
   font-size: large;
   font-weight: 1000;
+}
+
+#egen, #vurdering{
+  font-size: large;
+  font-weight: 1000;
+  padding-top: 30px;
 }
 
 @media screen and (max-width:1080px) {
