@@ -1,4 +1,4 @@
-document.getElementById("play").addEventListener("click", play)
+document.getElementById("play").addEventListener("click", play);
 //Poeng//
 let humanScore = 0;
 let computerScore = 0;
@@ -19,32 +19,31 @@ function play() {
     if (value === robot) {
         console.log("Uavgjort");
         //Dette setter verdien til en id i html filen//
-        document.getElementById("result").innerText="Uavgjort! Vi valgte samme ting. -_-"
+        document.getElementById("result").innerText="Uavgjort! Vi valgte samme ting. -_-";
     }
     //I else-if delene blir det skjeket om spilleren vant, og om man har det settes "result" til en melding om at man vant, og "humanScore" variabelen økes med 1//
     else if (value === "stein" && robot === "saks") {
         console.log("Spiller vant");
-        document.getElementById("result").innerText="Du vant! :("
-        humanScore++
-        
+        document.getElementById("result").innerText="Du vant! :(";
+        humanScore++;
     }
     else if (value === "papir" && robot === "stein") {
         console.log("Spiller vant");
-        document.getElementById("result").innerText="Du vant! :("
-        humanScore++
+        document.getElementById("result").innerText="Du vant! :(";
+        humanScore++;
     }
     else if (value === "saks" && robot === "papir") {
         console.log("Spiller vant");
-        document.getElementById("result").innerText="Du vant! :("
-        humanScore++
+        document.getElementById("result").innerText="Du vant! :(";
+        humanScore++;
     }   
     //Siden alle andre alternativer enn at roboten vant har blitt skjeket, kan jeg bare bruke else for å skjeke dette. Her settes "result" til en melding om at roboten vant, og "robotScore" økes med 1
     else {
         console.log("Robot vant");
-        document.getElementById("result").innerText="Jeg vant! :)"
-        computerScore++
+        document.getElementById("result").innerText="Jeg vant! :)";
+        computerScore++;
     }
     //Her sendes poengsumen til html filen, og en humanScore id i html settes til "Spiller poeng: " + humanScor variabelen. Dette samme gjelder for poengsumen til roboten//
-    document.getElementById("humanScore").innerText="Spiller poeng: " + humanScore
-    document.getElementById("computerScore").innerText="Robot poeng: " + computerScore
+    document.getElementById("humanScore").innerText="Spiller poeng: " + humanScore;
+    document.getElementById("computerScore").innerText="Robot poeng: " + computerScore;
 }
