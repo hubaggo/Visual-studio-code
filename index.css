@@ -52,15 +52,15 @@ a:hover {
   }
 
 #choice {
-    background-color: #52b4cc;
-    color: #ffffff;
-    border: #000000;
+    background-color: #2e74d5;
+    color: #000000;
+    border: 1px solid #000000;
   }
 
 #play {
-    background-color: #52b4cc;
-    color: #ffffff;
-    border: #000000;
+    background-color: #2e74d5;
+    color: #000000;
+    border: 1px solid #000000;
   }
 
 @media screen and (max-width:768px) {
