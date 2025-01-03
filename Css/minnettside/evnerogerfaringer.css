@@ -49,3 +49,7 @@ a {
       grid-template-columns: 1fr;
     }
   }
+
+  #VGS {
+    padding-right: 10px;
+  }
