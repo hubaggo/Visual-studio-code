@@ -45,4 +45,5 @@ body {
   .grid-item {
     background-color: #2167f4;
       text-align: center;
+      padding-bottom: 100px;
   }
