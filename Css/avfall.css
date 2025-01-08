@@ -38,7 +38,7 @@ body {
   .grid-container {
     /*Her endrer man hvordan hele griden ser ut, for eksemempel, her har jeg endret bakgrunnsfargen til en litt mørk blå, som gjør at alle linkene er synlige*/
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: auto;
       background-color: #2167F4;
       padding: 10px;
   }
