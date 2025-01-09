@@ -1,11 +1,11 @@
 body {
     /*endrer fargen på bakgrunnen av nettsiden til en turkis-type farge*/
-    background-color:aqua;
+    background-color:rgb(174, 236, 180);
   }
   
   .header {
     /*Setter bakgrunnsfarge på headeren, i tilleg til å passe på at teksten er i midten av headeren*/
-    background-color:rgb(151, 235, 241);
+    background-color:rgb(174, 236, 180);
     text-align:center;
     padding:10px;
   }
@@ -13,7 +13,7 @@ body {
   .topnav {
     /*Setter bakgrunnsfargen på topnav baren*/
     overflow: hidden;
-    background-color: #85c3ee;
+    background-color: rgb(34, 179, 48);
   }
   
   .topnav a {
@@ -39,11 +39,11 @@ body {
     /*Her endrer man hvordan hele griden ser ut, for eksemempel, her har jeg endret bakgrunnsfargen til en litt mørk blå, som gjør at alle linkene er synlige*/
       display: grid;
       grid-template-columns: auto;
-      background-color: #2167F4;
+      background-color: #7fee75;
       padding: 10px;
   }
   .grid-item {
-    background-color: #2167f4;
+    background-color: #7fee75;
       text-align: center;
       padding-bottom: 100px;
   }
