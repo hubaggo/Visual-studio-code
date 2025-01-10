@@ -47,8 +47,11 @@ body {
     background-color: #7fee75;
       text-align: center;
       padding-bottom: 100px;
+      height: auto;
   }
 
 #søppel {
-  background-image:s;
+  background-image:url(../../Bilder/banan.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
