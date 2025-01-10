@@ -1,6 +1,7 @@
 body {
     /*endrer fargen på bakgrunnen av nettsiden til en turkis-type farge*/
     background-color:rgb(174, 236, 180);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .header {
