@@ -50,3 +50,7 @@ body {
     height: auto;
     width: 100%;
   }
+
+  #quiz {
+    float: left;
+  }
