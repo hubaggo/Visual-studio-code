@@ -35,6 +35,10 @@ body {
   a:hover {
     background-color: #185cbb;
   }
+
+  table, th, td {
+    border:1px solid black;
+  }
   
   .grid-container {
     /*Her endrer man hvordan hele griden ser ut, for eksemempel, her har jeg endret bakgrunnsfargen til en litt mørk blå, som gjør at alle linkene er synlige*/
