@@ -27,5 +27,5 @@ function quiz() {
     poeng++
    }
    document.getElementById("poeng").innerText = poeng + "/4"
-   //Legg til en "Litten partyfjess emoji om man vinner"
+   //Legg til en "Litten partyfjess emoji om man vinner" Hilsen pappa :)
 }
