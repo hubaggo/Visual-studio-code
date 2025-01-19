@@ -13,6 +13,7 @@ function onload() {
 }
 function quiz() {
     let poeng = 0;
+    document.getElementById("vant").innerText = ""
 
     if (svar1.value === "d") {
     poeng++;
@@ -21,11 +22,14 @@ function quiz() {
     poeng++;
    }
    if (svar3.value === "c") {
-    poeng++
+    poeng++;
    }
    if (svar4.value === "c") {
-    poeng++
+    poeng++;
    }
-   document.getElementById("poeng").innerText = poeng + "/4"
+   document.getElementById("poeng").innerText = poeng + "/4";
+   if (poeng === 4) {
+    document.getElementById("vant").innerText = "Gratulerer! Du fikk ALLE riktig! 🤩"
+   }
    //Legg til en "Litten partyfjess emoji om man vinner" Hilsen pappa :)
 }
