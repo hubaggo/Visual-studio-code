@@ -63,3 +63,12 @@ app.listen(PORT, () => {
 console.log(`Server running at http://localhost:${PORT}/`);
 
 });
+
+function klikk() {
+    document.getElementById("insert").addEventListener("click",insert);
+}
+function insert() {
+    let navn = document.getElementById("navn").value;
+    let email = document.getElementById("email").value;
+    db.run(`INSERT INTO users (name, email) VALUES ('${navn}', '${email}')`); 
+}

@@ -4,6 +4,8 @@
 
 <head>
 
+    <script src="../server.js"></script>
+
 <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +14,13 @@
 
 </head>
 
-<body>
+<body onload="klikk">
 
 <h1>Liste over brukere</h1>
+
+<p>Navn: <input type="text" id="navn"></p>
+<p>Email: <input type="varchar" id="email"></p>
+<p><button id="insert">Registrer</button></p>
 
 <ul>
 
@@ -29,7 +35,7 @@ users.forEach(user => {
 
 <!-- Oppretter et listeelement for hver bruker, og viser navn og e-post -->
 
-<li> <%= user.name %> - <%= user.email %></li>
+<li><%= user.name %> - <%= user.email %></li>
 
 <%
 
@@ -38,6 +44,7 @@ users.forEach(user => {
 })
 
 %> </ul>
+
 
 </body>
 
