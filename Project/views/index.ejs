@@ -4,46 +4,51 @@
 
 <head>
 
-    <script src="../server.js"></script>
+    <meta charset="UTF-8">
 
-<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Brukere</title>
+    <title>Brukere</title>
 
 </head>
 
-<body onload="klikk">
+<body>
+    <script src="../server.js"></script>
+    <h1>Liste over brukere</h1>
+    <form action="/submit" method="POST">
+       <!-- <p>Navn: <input type="navn" id="navn"></p>
+        <p>Email: <input type="email" id="email"></p>
+        <p><button id="insert">Registrer</button></p>-->
+        <label for="navn">Navn:</label>
+    <input type="text" id="navn" name="navn" required><br><br>
+ 
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+ 
+    <input type="submit" value="Submit">
+    </form>
+    <ul>
 
-<h1>Liste over brukere</h1>
 
-<p>Navn: <input type="text" id="navn"></p>
-<p>Email: <input type="varchar" id="email"></p>
-<p><button id="insert">Registrer</button></p>
+    <%
 
-<ul>
+    <!--Går gjennom hvert element (bruker) i 'users'-arrayet-->
 
+    users.forEach(user => {
 
-<%
+    %>
 
-<!--Går gjennom hvert element (bruker) i 'users'-arrayet-->
+    <!-- Oppretter et listeelement for hver bruker, og viser navn og e-post -->
 
-users.forEach(user => {
+    <li><%= user.name %> - <%= user.email %></li>
 
-%>
+    <%
 
-<!-- Oppretter et listeelement for hver bruker, og viser navn og e-post -->
+    <!--Avslutter forEach-løkken-->
 
-<li><%= user.name %> - <%= user.email %></li>
+    })
 
-<%
-
-<!--Avslutter forEach-løkken-->
-
-})
-
-%> </ul>
+    %> </ul>
 
 
 </body>
